@@ -13,5 +13,5 @@ else
     -h ${container_name} \
     --network=host \
 	--volume="$(pwd)/ros2_ws":"/root/ros2_ws" \
-    btsr:manipulator-rolling .
+    btsr:manipulator-rolling
 fi
