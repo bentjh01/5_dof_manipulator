@@ -8,10 +8,16 @@ then
 	docker exec -it ${container_name} bash 
 else
     echo "Starting new container."
+
+    xhost + rb-manipulator-network
+
     docker run -it --rm \
     --name ${container_name} \
     -h ${container_name} \
-    --network=host \
+    --network=docker-network \
 	--volume="$(pwd)/ros2_ws":"/root/ros2_ws" \
     btsr:manipulator-rolling
+
+    xhost - rb-manipulator-network
+
 fi

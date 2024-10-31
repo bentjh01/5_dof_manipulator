@@ -9,6 +9,11 @@ This is a humble beginning for hopefully something great.
 1. Clone repo
 2. Build docker image
 3. Chmod the run_robot_manipulator script
+4. create docker network
+
+```
+docker network create -d bridge rb-manipulator-network
+```
 
 ## Running
 
