@@ -4,6 +4,16 @@ Version 0
 
 This is a humble beginning for hopefully something great.
 
+## Setup
+
+1. Clone repo
+2. Build docker image
+3. Chmod the run_robot_manipulator script
+
+## Running
+
+1. ./run\_....
+
 ## Requirements
 
 -   Model a Universal Robotics Manipulator with at least 6 DOF
@@ -31,3 +41,4 @@ Simulator used: Gazebo
 ## Sources
 
 -   [Universal_Robots_ROS2_Description.git](https://github.com/UniversalRobots/Universal_Robots_ROS2_Description.git)
+-   [MOVEIT2](https://moveit.picknik.ai/main/index.html)
