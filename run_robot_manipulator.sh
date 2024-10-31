@@ -9,15 +9,11 @@ then
 else
     echo "Starting new container."
 
-    xhost + rb-manipulator-network
-
     docker run -it --rm \
     --name ${container_name} \
     -h ${container_name} \
-    --network=docker-network \
+    --network=rb-manipulator-network \
 	--volume="$(pwd)/ros2_ws":"/root/ros2_ws" \
     btsr:manipulator-rolling
-
-    xhost - rb-manipulator-network
 
 fi
