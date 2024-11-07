@@ -1,0 +1,3 @@
+[submodule "ros2_ws/src/Universal_Robots_ROS2_Description"]
+	path = ros2_ws/src/Universal_Robots_ROS2_Description
+	url = https://github.com/bentjh01/Universal_Robots_ROS2_Description.git
