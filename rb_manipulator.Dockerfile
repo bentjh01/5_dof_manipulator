@@ -1,4 +1,4 @@
-FROM ros:rolling
+FROM osrf/ros:rolling-desktop-full
 
 # Install dependencies
 

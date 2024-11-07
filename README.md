@@ -8,7 +8,13 @@ This is a humble beginning for hopefully something great.
 
 1. Clone repo
 2. Build docker image
+
 3. Chmod the run_robot_manipulator script
+
+```
+chmod +x run_robot_manipulator_linux.sh 
+```
+
 4. create docker network
 
 ```
@@ -19,7 +25,7 @@ docker network create -d bridge rb-manipulator-network
 
 1. ./run\_....
 
-## Requirements
+## Project Requirements
 
 -   Model a Universal Robotics Manipulator with at least 6 DOF
 -   Perform forward and inverse kinematics
@@ -42,6 +48,8 @@ Simulator used: Gazebo
 -   Figure out how to use gazebo and ros2
 -   Integrate moveit2
 -   Pick and place
+
+- Install rviz
 
 ## Sources
 
